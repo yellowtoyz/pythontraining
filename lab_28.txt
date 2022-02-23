@@ -1,0 +1,12 @@
+for i in range(4):
+print(i)
+for i in range(4):
+    print(i)
+for x in range(10):
+    print(x, end=" ")
+fruitbowl = ["apple", "pear", "grape"]
+foo = open("ourfile.txt","w")
+for fruit in fruitbowl:
+    print(fruit, file=foo)
+foo.close()
+exit()
